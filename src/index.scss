@@ -1,1 +1,8 @@
 @import './vendor/_reset';
+
+* {
+    box-sizing: border-box;
+}
+
+// Tasks
+@import './components/tasks/qrCodeComponent/qrCodeComponent.scss';
